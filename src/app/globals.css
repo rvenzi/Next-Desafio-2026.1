@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@theme {
+    --breakopoint-sm: 425px;
+    --breakopoint-md: 768px;
+    --breakpoint-bp-840: 840px;
+    --breakopoint-lg: 1280px;
+    --breakopoint-xl: 1920px;
+    --breakopoint-2xl: 2560px;
+    --breakpoint-3xl: 3440px;
+}
+
+@theme inline {
+    --font-imbue: var(--font-imbue);
+    --font-inter: var(--font-inter);
+}
