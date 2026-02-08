@@ -6,9 +6,9 @@ import { UserCircle } from "phosphor-react";
 import { List } from "phosphor-react";
 
 const links = [
-    {href: '/home', label: 'Home' },
-    {href: '/contact', label: 'Contato' },
-    {href: '/Products', label: 'Produtos' },
+    {href: '/', label: 'Home' },
+    {href: '/contato', label: 'Contato' },
+    {href: '/produtos', label: 'Produtos' },
     {href: '/menagentment', label: 'Gerenciamento' },
 ];
 
