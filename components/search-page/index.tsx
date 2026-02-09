@@ -3,7 +3,7 @@ import MaisVendidosCard from "../mais-vendidos/card";
 import { Search } from "lucide-react";
 import Pagination from "../paginacao";
 
-export default function PagProdutos() {
+export default function SearchPage() {
   return (
     <div className="w-full space-y-12 mt-10 mb-20">
         <div className="w-full flex justify-center">
