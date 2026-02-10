@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Imbue, Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/header";
-import Footer from "@/components/footer";
 
 const imbue = Imbue({
   weight: ["400", "700"],
@@ -31,9 +29,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={`${inter.variable} ${imbue.variable} antialiased`}>
-        <Header />
         {children}
-        <Footer />
       </body>
     </html>
   );
