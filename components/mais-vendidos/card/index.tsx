@@ -4,7 +4,7 @@ import { CircleDollarSign } from "lucide-react";
 
 export default function MaisVendidosCard() {
   return (
-        <Link href ={'/'} className="group">
+        <Link href ={'../individual-post'} className="group">
             <div className="flex w-fit group-hover:shadow-2xl duration-300">
                 <div className="flex flex-col items-center overflow-hidden text-gray-700 border-black border-2 w-64 h-104">
                     <Image 

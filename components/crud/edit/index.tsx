@@ -1,7 +1,9 @@
 'use client'
 import Image from "next/image";
 
-export default function CreateCrud() {
+const categorie = "Categoria default";
+
+export default function EditCrud() {
   return (
     <div className="h-fit flex flex-col lg:flex-row items-center justify-center shadow-2xl">
       <div className="w-1/2 h-fit lg:border-r-4 border-black flex flex-col items-center justify-center gap-6 lg:p-5">
@@ -15,7 +17,7 @@ export default function CreateCrud() {
             />
         </div>
         <button className="border border-black px-6 py-2 hover:bg-gray-100 transition">
-          Adicionar foto
+          Editar foto
         </button>
         <div className="text-center mt-4">
           <h2 className="text-xl font-semibold">
@@ -33,16 +35,19 @@ export default function CreateCrud() {
           type="text"
           placeholder="Nome*"
           className="border border-black px-4 py-3 outline-none"
+          defaultValue={categorie}
         />
         <input
           type="text"
           placeholder="Preço*"
           className="border border-black px-4 py-3 outline-none"
+          defaultValue={categorie}
         />
         <textarea
           placeholder="Descrição*"
           rows={5}
           className="border border-black px-4 py-3 outline-none resize-none"
+          defaultValue={categorie}
         />
         <div className="border-b border-black my-6" />
         <div className="flex items-center justify-center gap-2">
