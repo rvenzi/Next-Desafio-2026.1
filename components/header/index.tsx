@@ -30,7 +30,7 @@ export default function Header() {
                             <span className="text-black text-md font-medium hover:underline">{link.label}</span>
                         </Link>
                         )}
-                        <Link href="/perfil" className="text-black hover:text-gray-600 transition-colors">
+                        <Link href="/login" className="text-black hover:text-gray-600 transition-colors">
                             <UserCircle size={32} weight="fill" /> 
                         </Link>
                     </div>
@@ -50,7 +50,7 @@ export default function Header() {
                             <span className="text-black text-md font-medium hover:underline">{link.label}</span>
                         </Link>
                         )}
-                        <Link href="/perfil" className="text-black hover:text-gray-600 transition-colors">
+                        <Link href="/login" className="text-black hover:text-gray-600 transition-colors">
                             <UserCircle size={32} weight="fill" /> 
                         </Link>
                     </div>

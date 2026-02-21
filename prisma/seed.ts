@@ -5,69 +5,77 @@ const prisma = new PrismaClient();
 async function main() {
   const products = [
     {
-      title: 'Wireless Mouse',
-      description: 'A smooth and responsive wireless mouse.',
-      price: 29.99,
-      createdAt: new Date(),
+     
+      title: 'Dior Sauvage',
+      image: 'https://img.lojasrenner.com.br/item/539110289/original/1.jpg',
+      description: 'Perfume masculino com notas frescas de bergamota e toque amadeirado.',
+      price: 599.90,
     },
     {
-      title: 'Mechanical Keyboard',
-      description: 'A durable mechanical keyboard with RGB lighting.',
-      price: 89.99,
-      createdAt: new Date(),
+      
+      title: 'Chanel Nº 5',
+      image: 'https://www.drogaraia.com.br/_next/image?url=https%3A%2F%2Fproduct-data.raiadrogasil.io%2Fimages%2F4500843.webp&w=3840&q=40',
+      description: 'Clássico perfume feminino com aroma floral aldeídico sofisticado.',
+      price: 799.90,
     },
     {
-      title: 'Noise Cancelling Headphones',
-      description: 'Comfortable headphones with active noise cancelling.',
-      price: 199.99,
-      createdAt: new Date(),
+      
+      title: 'Invictus',
+      image: 'https://img.lojasrenner.com.br/item/533767634/original/1.jpg',
+      description: 'Fragrância masculina energética com notas marinhas e amadeiradas.',
+      price: 529.90,
     },
     {
-      title: '4K Monitor',
-      description: 'A high-resolution 4K monitor for professional use.',
-      price: 399.99,
-      createdAt: new Date(),
+      
+      title: 'La Vie Est Belle',
+      image: 'https://img.lojasrenner.com.br/item/834650430/zoom/1.jpg',
+      description: 'Perfume feminino doce e elegante com íris, jasmim e patchouli.',
+      price: 649.90,
     },
     {
-      title: 'USB-C Hub',
-      description: 'A versatile USB-C hub with multiple ports.',
-      price: 49.99,
-      createdAt: new Date(),
+      
+      title: '212 VIP',
+      image: 'https://img.lojasrenner.com.br/item/527173901/original/1.jpg',
+      description: 'Fragrância moderna com notas orientais e toque adocicado.',
+      price: 499.90,
     },
     {
-      title: 'Portable SSD',
-      description: 'A fast and portable SSD with 1TB capacity.',
-      price: 129.99,
-      createdAt: new Date(),
+     
+      title: 'Good Girl',
+      image: 'https://img.lojasrenner.com.br/item/551652881/zoom/1.jpg',
+      description: 'Perfume feminino marcante com notas de amêndoa, café e cacau.',
+      price: 689.90,
     },
     {
-      title: 'Bluetooth Speaker',
-      description: 'A compact Bluetooth speaker with excellent sound quality.',
-      price: 59.99,
-      createdAt: new Date(),
+      
+      title: 'One Million',
+      image: 'https://img.lojasrenner.com.br/item/546594103/large/1.jpg',
+      description: 'Fragrância intensa com notas de couro, canela e âmbar.',
+      price: 579.90,
     },
     {
-      title: 'Smartwatch',
-      description: 'A stylish smartwatch with fitness tracking features.',
-      price: 149.99,
-      createdAt: new Date(),
+      
+      title: 'Euphoria',
+      image: 'https://img.lojasrenner.com.br/item/519032076/original/10.jpg',
+      description: 'Perfume feminino sensual com romã, orquídea e notas cremosas.',
+      price: 459.90,
     },
     {
-      title: 'Gaming Chair',
-      description: 'An ergonomic gaming chair with lumbar support.',
-      price: 249.99,
-      createdAt: new Date(),
+      title: 'Acqua di Gio',
+      image: 'https://img.lojasrenner.com.br/item/928530017/large/1.jpg',
+      description: 'Fragrância fresca inspirada no mar com notas cítricas e aquáticas.',
+      price: 619.90,
     },
     {
-      title: 'Webcam',
-      description: 'A high-definition webcam for video conferencing.',
-      price: 79.99,
-      createdAt: new Date(),
+      title: 'Bleu de Chanel',
+      image: 'https://product-data.raiadrogasil.io/images/5039143.webp',
+      description: 'Perfume masculino elegante com notas amadeiradas e cítricas.',
+      price: 749.90,
     },
   ];
 
   for (const product of products) {
-    await prisma.product.create({
+    await prisma.produtos.create({
       data: product,
     });
   }

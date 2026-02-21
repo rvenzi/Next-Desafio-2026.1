@@ -19,7 +19,7 @@ export default function Sidebar() {
 
     return (
         <div>
-            <div className="bg-linear-to-r from-gray-700 to-gray-400 sm:hidden flex flex-wrap items-center justify-between px-3 py-4 border-b-2 border-black">
+            <div className="bg-linear-to-r from-gray-500 to-gray-200 sm:hidden flex flex-wrap items-center justify-between px-3 py-4 border-b-2 border-black">
                 <div className="flex items-center gap-2 cursor-default">
                     <span className="font-bold text-xl font-imbue text-black">Pure Essence</span>
                 </div>
@@ -30,9 +30,9 @@ export default function Sidebar() {
             </div>
             <aside
             className={`fixed top-0 left-0 z-40 w-full sm:w-72 h-screen transition-transform ${isSidebarOpen ? '': '-translate-x-full'}
-            sm:translate-x-0 bg-linear-to-r from-gray-700 to-gray-400 border-r-2 border-black`}
+            sm:translate-x-0 bg-linear-to-r from-gray-500 to-gray-200 border-r-2 border-black`}
             >
-                <div className="bg-linear-to-r from-gray-700 to-gray-400 h-full px-3 py-5 overflow-y-auto">
+                <div className="bg-linear-to-r from-gray-500 to-gray-200 h-full px-3 py-5 overflow-y-auto">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center gap-2 cursor-default">
                             <span className="font-bold text-xl font-imbue text-black">Pure Essence</span>

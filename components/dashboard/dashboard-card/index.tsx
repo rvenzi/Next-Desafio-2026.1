@@ -11,7 +11,7 @@ export default function DashboardCard({ title, href, description }: DashboardCar
     return (
         <Link 
             href={href}
-            className="hover:scale-[1.02] transition-all duration-200 w-11/12 sm:w-72 sm:min-h-24 bg-linear-to-r from-gray-700 to-gray-400 rounded-lg p-4 font-semibold">
+            className="hover:scale-[1.02] transition-all duration-200 w-11/12 sm:w-72 sm:min-h-24 bg-linear-to-r from-gray-500 to-gray-200 rounded-lg p-4 font-semibold">
             <div className="flex flex-col justify-center">
                 <div className="flex justify-between text-white">
                     <h3 className="text-xl">{title}</h3>

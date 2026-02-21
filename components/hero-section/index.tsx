@@ -12,7 +12,7 @@ export default function HeroSection() {
         className="object-cover -z-10"
         priority
       />
-      <div className="absolute flex items-center justify-center xl:mt-60 lg:mt-40 md:mt-25 mt-15 bp-840:mt-35 sm:px-2 sm:py-10 px-0 py-2 bg-white/35 hover:bg-white/60 hover:scale-110 transition-transform rounded-2xl shadow-lg">
+      <div className="absolute flex items-center justify-center xl:mt-60 lg:mt-40 md:mt-25 mt-15 bp-840:mt-35 sm:px-2 sm:py-10 px-0 py-2 bg-white/60 rounded-2xl shadow-lg">
         <h1 className="text-black sm:w-100 w-50 sm:text-3xl lg:text-4xl text-sm font-bold text-center px-4 drop-shadow-lg">
           Perfumaria nacional e importada de melhor qualidade
         </h1>
