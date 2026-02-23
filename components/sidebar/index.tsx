@@ -54,9 +54,9 @@ export default function Sidebar() {
                         ))}
                         <div className=" h-px mt-5 w-full bg-black">
                             <div className="flex flex-col items-center justify-end gap-2 cursor-default mt-5">
-                                <button className="flex items-center justify-center px-2 py-3 hover:bg-gray-400 cursor-pointer">
+                                <Link href="/" className="flex items-center justify-center border-b border-r border-black px-2 py-3 hover:bg-gray-400 cursor-pointer">
                                     <LogOut className="w-5 h-5 text-black" />
-                                </button>
+                                </Link>
                                 <span className="text-xl flex items-end justify-center text-black">Logout</span>
                             </div>
                         </div>

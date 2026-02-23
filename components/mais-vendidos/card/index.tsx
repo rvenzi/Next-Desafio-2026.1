@@ -24,7 +24,7 @@ export default function MaisVendidosCard({produtos}: MaisVendidosCardProps) {
                         </h1>
                         <div className="flex flex-col justify-center items-center">
                             <div className="flex gap-2 items-center text-lg font-semibold text-black">
-                                <p>R$ {produtos.price}</p>
+                                <p>R$ {Number(produtos.price).toFixed(2)}</p>
                             </div>
                             <div>
                                 <button className="mt-3 mb-2 w-30 h-10 bg-black text-white font-semibold hover:bg-gray-800 duration-200 flex items-center justify-center gap-2">

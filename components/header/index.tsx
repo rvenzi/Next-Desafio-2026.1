@@ -8,7 +8,7 @@ import { List } from "phosphor-react";
 const links = [
     {href: '/', label: 'Home' },
     {href: '/contato', label: 'Contato' },
-    {href: '/produtos', label: 'Produtos' },
+    {href: '/search', label: 'Produtos' },
     {href: '/gerenciamento', label: 'Gerenciamento' },
 ];
 
